@@ -1,0 +1,1 @@
+<h2>Tambah Lokasi Peminjaman</h2><form action="proses/prosesasal.php?aksi=tambah" method="post"><div class="form-group"><label>Nama Lokasi</label><input class="form-control" name="namaasal" required></div><button class="btn btn-primary">Simpan</button></form>

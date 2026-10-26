@@ -1,0 +1,53 @@
+cvdigitalahmadimuslim/
+│
+├── index.php                 # halaman homepage selamat datang (pakai navbar yang ada menu loginuser dan registrasipeserta)
+│
+├── auth/
+│   ├── loginuser.php
+│   └── registrasipeserta.php
+│
+├── assets/
+│   ├── css/
+│   │   └── js
+│   │   └── css
+│   │
+│   ├── plugins/
+│   │
+│   └── image/
+│       ├── slider/
+│       ├── peserta/
+│       └── user/
+│
+├── pages/
+│   │
+│   ├── dashboard.php
+│   ├── home.php
+│   ├── contact.php
+│   ├── tentang.php
+│   ├── daftarisi.php
+│   │
+│   ├── component/
+│   │   ├── header.php         
+│   │   ├── navbar.php        # menu dashboard, kelola user, dan kelola cv muncul ketika sudah login (pakai if)
+│   │   └── footer.php         
+│   │
+│   ├── cvdigital/
+│   │   ├── index.php         # Data CV peserta
+│   │   ├── tambah.php        # Tambah CV
+│   │   ├── edit.php          # Edit CV
+│   │   └── lihat.php         # Detail CV
+│   │
+│   └── user/
+│       ├── index.php         # Data user
+│       ├── tambah.php
+│       ├── edit.php
+│       └── lihat.php
+│
+├── proses/
+│   ├── proseslogin.php
+│   ├── prosescvdigital.php
+│   └── prosesuser.php
+│
+└── data/
+    ├── datapeserta.json
+    └── datauser.json

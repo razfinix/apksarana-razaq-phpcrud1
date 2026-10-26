@@ -1,0 +1,1 @@
+<?php $id=(int)($_GET['id']??0); $r=mysqli_fetch_assoc(mysqli_query($koneksi,"SELECT * FROM asal WHERE idasal=$id")); ?><h2>Detail Lokasi Peminjaman</h2><p><b>ID:</b> <?=$r['idasal']?></p><p><b>Nama:</b> <?=htmlspecialchars($r['namaasal'])?></p>

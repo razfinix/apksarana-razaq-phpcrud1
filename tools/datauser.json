@@ -1,0 +1,22 @@
+   [
+    {
+        "id": 2,
+        "username": "razaq",
+        "password": "razaq123",
+        "nama": "teuku adbul razaq",
+        "role": "admin",
+        "email": "adbulrazaq@guru.smk.belajar.id",
+        "foto": "user_2_1789576638.png",
+        "tanggal_buat": "2026-09-16 16:17:02"
+    },
+    {
+        "id": 3,
+        "username": "admin",
+        "password": "admin123",
+        "nama": "administrator",
+        "role": "admin",
+        "email": "ahmadimuslim55@guru.smk.belajar.id",
+        "foto": "user_3_1789576099.jpg",
+        "tanggal_buat": "2026-09-16 16:28:19"
+    }
+]
